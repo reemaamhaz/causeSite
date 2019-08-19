@@ -2,3 +2,206 @@
 body {
  background: #333c5d;
 }
+
+h1{
+  color:white;
+  font-family: text;
+  flex-grow: 1;
+  padding-left: 40%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 2px 2px 3px black;
+}
+
+h2{
+  color:white;
+  font-family: text;
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #20263b;
+  box-shadow: 2px 2px 3px black;
+}
+
+p{
+  color:white;
+  font-family: text;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+li{
+  color:white;
+  font-family: text;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+table{
+  border: solid 2px white;
+  font-family: text;
+  font-size: 25px;
+  color: white;
+}
+
+tr{
+  border: solid 1px white;
+}
+th{
+  border: solid 1px white;
+}
+a{
+  color:white;
+}
+
+
+nav {}
+
+nav ul 
+{
+  list-style : none;
+  padding : 0px;
+  margin : 0px;
+  display : flex;
+  background-color: #20263b;
+  box-shadow: 1px 1px 1px black;
+}
+
+nav ul li
+{
+  border: outset 2px white;
+  flex-grow: 1;
+  text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+  min-height : 60px;
+    line-height: 60px;
+}
+
+nav ul li:hover{
+  background-color : blue;
+}
+
+nav ul a:link{
+  color : white;
+  text-decoration : none;
+}
+
+nav ul a:visited{
+    color:white;
+}
+
+nav ul a:hover{
+    color:#E1F5FE;
+}
+
+nav ul a:active{
+    color:black;
+}
+
+nav ul a:focus{
+    color:purple;
+}
+
+header
+{
+  display: flex;
+}
+
+#title
+{
+  font-size: 34px;
+  line-height: 50px;
+  min-height : 60px;
+  flex-grow: 1;
+  color: white;
+  font-family: text;
+
+  text-align: right;
+  padding-left: 10%;
+  font-weight: bold;
+}
+
+#title a:hover{
+  background-color : blue;
+}
+
+#title a:link{
+  color : white;
+  text-decoration : none;
+}
+
+#title a:visited{
+    color:white;
+}
+
+#title a:hover{
+    color: #E1F5FE;
+}
+
+#title a:active{
+    color:black;
+}
+
+#title a:focus{
+    color:purple;
+}
+
+#contact
+{
+  font-size: 16px;
+  line-height: 30px;
+  min-height : 30px;
+  flex-grow: 1;
+  font-family: text;
+
+  font-weight: bold;
+  text-align: right;
+
+  width: 120px;
+} 
+
+#info{
+  padding-left: 40%;
+}
+
+#interest{
+  padding-left: 40%;
+}
+
+#order{
+  padding-left: 40%;
+}
+
+#prof{
+  display: flex;
+}
+.profile-pic {
+    max-width: 328px;
+    max-height: 328px;
+}
+
+.circle {
+    border-radius: 1000px !important;
+    width: 328px;
+    height: 328px;
+    border: 8px solid rgba(255, 255, 255, .5);
+    position:absolute;
+    top: 170px;
+    left: 100px;
+    box-shadow: 2px 2px 3px black;
+    display: flex;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    flex-grow: 1;
+}
+.p-image {
+  top: 167px;
+  right: 30px;
+  color: #666666;
+  flex-grow: 1;
+}
