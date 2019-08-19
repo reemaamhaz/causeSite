@@ -115,7 +115,7 @@ header
   min-height : 60px;
   flex-grow: 1;
   color: white;
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Cantarell';
 
   text-align: right;
   padding-left: 10%;
