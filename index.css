@@ -25,14 +25,14 @@ h2{
 
 p{
   color:white;
-  font-family: text;
+  font-family: 'Inconsolata', monospace;
   flex-grow: 1;
   font-size: 20px;
 }
 
 li{
   color:white;
-  font-family: text;
+  font-family: 'Cutive Mono', monospace;
   flex-grow: 1;
   font-size: 20px;
 }
