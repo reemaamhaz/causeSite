@@ -149,7 +149,8 @@ header
   line-height: 30px;
   min-height : 30px;
   flex-grow: 1;
-  font-family: text;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
 
   font-weight: bold;
   text-align: right;
