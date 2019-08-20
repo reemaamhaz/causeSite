@@ -78,12 +78,8 @@ nav ul li
     line-height: 60px;
 }
 
-nav ul li:hover{
-  background-color : white;
-}
-
 nav ul a:link{
-  color : 635E65;
+  color : #635E65;
   text-decoration : none;
 }
 
