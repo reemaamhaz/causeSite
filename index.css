@@ -186,6 +186,7 @@ header
     top: 170px;
     left: 100px;
     box-shadow: 2px 2px 3px grey;
+	display: none;
 }
 img {
     max-width: 100%;
