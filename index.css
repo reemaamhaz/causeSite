@@ -200,6 +200,6 @@ img {
   flex-grow: 1;
 }
 .logo{
-margin-top: 0px;
-padding-top: 0px;
+max-width: 328px;
+max-height: 328px;
 }
