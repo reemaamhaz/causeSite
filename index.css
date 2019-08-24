@@ -189,8 +189,6 @@ header
 	display: none;
 }
 img {
-padding-top: 0px;
-	margin-top: 0px;
     max-width: 100%;
     height: auto;
     flex-grow: 1;
@@ -200,4 +198,8 @@ padding-top: 0px;
   right: 30px;
   color: #666666;
   flex-grow: 1;
+}
+.logo{
+margin-top: 0px;
+padding-top: 0px;
 }
