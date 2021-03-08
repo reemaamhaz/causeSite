@@ -1,0 +1,48 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  position: center
+}
+.card {
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+}
+.card .image {
+  z-index: 1;
+  height: 100%;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease;
+  transform: scale(1.2);
+
+}
+
+.card:hover .content {
+  bottom: 0px;
+  color: #fff;
+}
+
+.card:hover .image img {
+  transform: scale(1);
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+  width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+  width: 100%;
+  }
+}
+
+
+
+Resources
